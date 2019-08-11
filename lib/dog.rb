@@ -12,7 +12,7 @@ end
 
 def self.print_all
   
-  @@all.join(" ")
+  @@all.join("\n")
   
   
 end 
