@@ -11,10 +11,8 @@ def self.all
 end  
 
 def self.print_all
-  
-  @@all.join("\n")
-  
-  
+  puts 
+  @@all
 end 
 def save
   
