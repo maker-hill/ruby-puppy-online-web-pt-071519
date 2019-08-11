@@ -11,7 +11,9 @@ def self.all
 end  
 
 def self.print_all
-  puts @@all.join(",")
+  @@all.each do |name|
+    puts "#{name}"
+  end  
 end 
 def save
   
