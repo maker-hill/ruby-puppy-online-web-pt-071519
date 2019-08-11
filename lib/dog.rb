@@ -28,6 +28,10 @@ def self.clear_all
   
 end  
 
+def name
+  @name
+end  
+
 
 
 end
