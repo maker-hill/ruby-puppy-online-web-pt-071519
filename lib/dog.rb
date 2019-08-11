@@ -12,8 +12,8 @@ end
 
 def self.print_all
   
-  @@all.select do |p|
-    puts "#{p}"
+  @@all.collect do |p|
+    puts p
   end   
 end 
 def save
