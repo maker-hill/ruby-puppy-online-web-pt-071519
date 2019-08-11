@@ -14,7 +14,7 @@ def self.print_all
   @@all.each do |p|
     puts "#{p}"
   end   
-
+end 
 def save
   
  @@all << self
