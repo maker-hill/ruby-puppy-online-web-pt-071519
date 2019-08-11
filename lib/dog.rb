@@ -12,7 +12,7 @@ end
 
 def self.print_all
   
-  @@all.each do |p|
+  @@all.collect do |p|
     puts "#{p}"
   end   
 end 
