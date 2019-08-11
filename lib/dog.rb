@@ -12,7 +12,7 @@ end
 
 def self.print_all
   
-  @@all.collect { |p| puts p}
+  @@all.collect { |p| puts "#{p}"}
   
   
 end 
