@@ -15,15 +15,15 @@ def self.print_all
     puts "#{p}"
   end   
 
-def clear_all
-  
 def save
   
  @@all << self
 
 end  
 
-end
+def self.clear_all
+  
+  
   
 end  
 
