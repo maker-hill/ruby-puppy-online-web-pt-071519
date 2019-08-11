@@ -2,7 +2,7 @@ class Dog
   @@all = []  
 def initialize(name)
   @name = name
-  @@all << self
+  @@all.save
 end  
 
 def self.all
@@ -15,6 +15,16 @@ def self.print_all
     puts "#{p}"
   end   
 
+def clear_all
+  
+def save
+  
+ @@all << self
+
+end  
+
+end
+  
 end  
 
 
